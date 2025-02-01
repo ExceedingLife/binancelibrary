@@ -11,7 +11,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
     {
         /// <summary>
         /// Place a new order
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/websocket-api" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/trade/websocket-api" /></para>
         /// </summary>
         /// <param name="symbol">The symbol the order is for, for example `ETHUSDT`</param>
         /// <param name="side">The order side (buy/sell)</param>
@@ -58,7 +58,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Edit an existing order
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/websocket-api/Modify-Order" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/trade/websocket-api/Modify-Order" /></para>
         /// </summary>
         /// <param name="symbol">The symbol, for example `ETHUSDT`</param>
         /// <param name="side">Order side</param>
@@ -73,7 +73,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Cancels a pending order
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/websocket-api/Cancel-Order" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/trade/websocket-api/Cancel-Order" /></para>
         /// </summary>
         /// <param name="symbol">The symbol the order is for, for example `ETHUSDT`</param>
         /// <param name="orderId">The order id of the order</param>
@@ -85,7 +85,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Retrieves data for a specific order. Either orderId or origClientOrderId should be provided.
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/websocket-api/Query-Order" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/trade/websocket-api/Query-Order" /></para>
         /// </summary>
         /// <param name="symbol">The symbol the order is for, for example `ETHUSDT`</param>
         /// <param name="orderId">The order id of the order</param>
@@ -97,7 +97,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Get position information
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/websocket-api/Position-Info-V2" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/trade/websocket-api/Position-Info-V2" /></para>
         /// </summary>
         /// <param name="symbol">Filter by symbol, for example `ETHUSDT`</param>
         /// <param name="receiveWindow">The receive window for which this request is active. When the request takes longer than this to complete the server will reject the request</param>

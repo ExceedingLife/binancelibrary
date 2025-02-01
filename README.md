@@ -10,7 +10,7 @@ Binance.Net is a strongly typed client library for accessing the [Binance REST a
 * Client side rate limiting 
 * Client side order book implementation
 * Extensive logging
-* Support for different environments (binance.com, binance.us, testnet)
+* Support for different environments (binance.us, binance.us, testnet)
 * Easy integration with other exchange client based on the CryptoExchange.Net base library
 
 ## Supported Frameworks
@@ -1465,7 +1465,7 @@ Alternatively, sponsor me on Github using [Github Sponsors](https://github.com/s
 	* Fix for stream order parsing
 
 * Version 2.3.2 - 09 feb 2018
-	* Changed base address from https://www.binance.com to https://api.binance.com to fix connection errors
+	* Changed base address from https://www.binance.us to https://api.binance.us to fix connection errors
 
 * Version 2.3.1 - 08 feb 2018
 	* Updated models to latest version

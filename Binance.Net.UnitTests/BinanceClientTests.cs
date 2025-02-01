@@ -246,10 +246,10 @@ namespace Binance.Net.UnitTests
         }
 
         [Test]
-        [TestCase(TradeEnvironmentNames.Live, "https://api.binance.com")]
+        [TestCase(TradeEnvironmentNames.Live, "https://api.binance.us")]
         [TestCase(TradeEnvironmentNames.Testnet, "https://testnet.binance.vision")]
         [TestCase("us", "https://api.binance.us")]
-        [TestCase("", "https://api.binance.com")]
+        [TestCase("", "https://api.binance.us")]
         public void TestConstructorEnvironments(string environmentName, string expected)
         {
             var configuration = new ConfigurationBuilder()
@@ -286,7 +286,7 @@ namespace Binance.Net.UnitTests
 
             var address = client.SpotApi.BaseAddress;
 
-            Assert.That(address, Is.EqualTo("https://api.binance.com"));
+            Assert.That(address, Is.EqualTo("https://api.binance.us"));
         }
 
         [Test]

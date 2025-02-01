@@ -350,7 +350,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Get list of convert symbols
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/convert" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/convert" /></para>
         /// </summary>
         /// <param name="fromAsset">From asset</param>
         /// <param name="toAsset">To asset</param>

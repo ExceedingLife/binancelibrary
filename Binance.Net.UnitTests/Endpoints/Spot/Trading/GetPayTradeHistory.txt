@@ -40,7 +40,7 @@ true
        "receiverInfo":{
                "name":"Alan",
                "type":"MERCHANT",
-               "email":"alan@binance.com",
+               "email":"alan@binance.us",
                "binanceId":"34355667",
                "accountId":"21326891",
                "countryCode":"1",

@@ -44,19 +44,19 @@
         public string? CoinFuturesSocketClientAddress { get; set; }
 
         /// <summary>
-        /// The default addresses to connect to the binance.com API
+        /// The default addresses to connect to the binance.us API
         /// </summary>
         public static BinanceApiAddresses Default = new BinanceApiAddresses
         {
-            RestClientAddress = "https://api.binance.com",
-            SocketClientStreamAddress = "wss://stream.binance.com:9443/",
-            SocketClientApiAddress = "wss://ws-api.binance.com:443/",
-            BlvtSocketClientAddress = "wss://nbstream.binance.com/",
-            UsdFuturesRestClientAddress = "https://fapi.binance.com",
-            UsdFuturesSocketClientAddress = "wss://fstream.binance.com/",
-            UsdFuturesSocketApiClientAddress = "wss://ws-fapi.binance.com/",
-            CoinFuturesRestClientAddress = "https://dapi.binance.com",
-            CoinFuturesSocketClientAddress = "wss://dstream.binance.com/",
+            RestClientAddress = "https://api.binance.us",
+            SocketClientStreamAddress = "wss://stream.binance.us:9443/",
+            SocketClientApiAddress = "wss://ws-api.binance.us:443/",
+            BlvtSocketClientAddress = "wss://nbstream.binance.us/",
+            UsdFuturesRestClientAddress = "https://fapi.binance.us",
+            UsdFuturesSocketClientAddress = "wss://fstream.binance.us/",
+            UsdFuturesSocketApiClientAddress = "wss://ws-fapi.binance.us/",
+            CoinFuturesRestClientAddress = "https://dapi.binance.us",
+            CoinFuturesSocketClientAddress = "wss://dstream.binance.us/",
         };
 
         /// <summary>

@@ -771,7 +771,7 @@ namespace Binance.Net.Interfaces.Clients.SpotApi
         Task<WebCallResult<BinanceCrossMarginLeverageResult>> CrossMarginAdjustMaxLeverageAsync(int maxLeverage, int? receiveWindow = null, CancellationToken ct = default);
 
         /// <summary>
-        /// Get isolated margin fee data collection with any vip level or user's current specific data as https://www.binance.com/en/margin-fee
+        /// Get isolated margin fee data collection with any vip level or user's current specific data as https://www.binance.us/en/margin-fee
         /// <para><a href="https://binance-docs.github.io/apidocs/spot/en/#query-isolated-margin-fee-data-user_data" /></para>
         /// </summary>
         /// <param name="symbol">Filter by symbol, for example `ETHUSDT`</param>

@@ -340,7 +340,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Get position information
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/trade/rest-api/Position-Information-V3" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/trade/rest-api/Position-Information-V3" /></para>
         /// </summary>
         /// <param name="symbol">Filter by symbol, for example `ETHUSDT`</param>
         /// <param name="receiveWindow">The receive window for which this request is active. When the request takes longer than this to complete the server will reject the request</param>
@@ -349,7 +349,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Get a convert quote
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/convert/Send-quote-request" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/convert/Send-quote-request" /></para>
         /// </summary>
         /// <param name="fromAsset">The from asset, for example `ETH`</param>
         /// <param name="toAsset">The to asset, for example `USD`</param>
@@ -361,7 +361,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Accept a convert quote
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/convert/Accept-Quote" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/convert/Accept-Quote" /></para>
         /// </summary>
         /// <param name="quoteId">Quote id previously requested</param>
         /// <param name="ct">Cancellation token</param>
@@ -369,7 +369,7 @@ namespace Binance.Net.Interfaces.Clients.UsdFuturesApi
 
         /// <summary>
         /// Get status of a convert order
-        /// <para><a href="https://developers.binance.com/docs/derivatives/usds-margined-futures/convert/Order-Status" /></para>
+        /// <para><a href="https://developers.binance.us/docs/derivatives/usds-margined-futures/convert/Order-Status" /></para>
         /// </summary>
         /// <param name="quoteId">The quote id. Either this or orderId should be provided</param>
         /// <param name="orderId">The order id. Either this or quoteId should be provided</param>

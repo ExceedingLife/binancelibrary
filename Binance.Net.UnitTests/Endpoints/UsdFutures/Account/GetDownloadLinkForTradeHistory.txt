@@ -4,7 +4,7 @@ true
 {
     "downloadId":"545923594199212032",
     "status":"completed",    
-    "url":"www.binance.com", 
+    "url":"www.binance.us", 
     "notified":true,          
     "expirationTimestamp":1645009771000,
     "isExpired":null
